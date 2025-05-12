@@ -1,0 +1,15 @@
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.UI\obj\Debug\net8.0\ChildrenLeisure.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.UI\obj\Debug\net8.0\ChildrenLeisure.UI.AssemblyInfoInputs.cache
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.UI\obj\Debug\net8.0\ChildrenLeisure.UI.AssemblyInfo.cs
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.UI\obj\Debug\net8.0\ChildrenLeisure.UI.csproj.CoreCompileInputs.cache
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.UI\obj\Debug\net8.0\ChildrenLeisure.UI.sourcelink.json
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.UI\bin\Debug\net8.0\ChildrenLeisure.UI.exe
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.UI\bin\Debug\net8.0\ChildrenLeisure.UI.deps.json
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.UI\bin\Debug\net8.0\ChildrenLeisure.UI.runtimeconfig.json
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.UI\bin\Debug\net8.0\ChildrenLeisure.UI.dll
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.UI\bin\Debug\net8.0\ChildrenLeisure.UI.pdb
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.UI\obj\Debug\net8.0\ChildrenLeisure.UI.dll
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.UI\obj\Debug\net8.0\refint\ChildrenLeisure.UI.dll
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.UI\obj\Debug\net8.0\ChildrenLeisure.UI.pdb
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.UI\obj\Debug\net8.0\ChildrenLeisure.UI.genruntimeconfig.cache
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.UI\obj\Debug\net8.0\ref\ChildrenLeisure.UI.dll
