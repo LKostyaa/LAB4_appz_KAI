@@ -90,8 +90,7 @@
               "RelativeToolTip": "ChildrenLeisure.DAL\\Repositories\\BaseRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:39:15.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:39:15.369Z"
             },
             {
               "$type": "Document",
@@ -103,8 +102,7 @@
               "RelativeToolTip": "ChildrenLeisure.DAL\\Repositories\\IRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:37:48.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:37:48.293Z"
             },
             {
               "$type": "Document",
@@ -114,7 +112,7 @@
               "RelativeDocumentMoniker": "ChildrenLeisure.DAL\\Entities\\Order.cs",
               "ToolTip": "C:\\Users\\chema\\Desktop\\APPZ\\Lab4_appz\\ChildrenLeisure.DAL\\Entities\\Order.cs",
               "RelativeToolTip": "ChildrenLeisure.DAL\\Entities\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T13:35:34.693Z",
               "EditorCaption": ""
@@ -129,8 +127,7 @@
               "RelativeToolTip": "ChildrenLeisure.DAL\\Entities\\FairyCharacter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:35:27.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:35:27.945Z"
             },
             {
               "$type": "Document",
@@ -142,8 +139,7 @@
               "RelativeToolTip": "ChildrenLeisure.DAL\\Entities\\Attraction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:35:12.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:35:12.767Z"
             },
             {
               "$type": "Document",
@@ -155,8 +151,7 @@
               "RelativeToolTip": "ChildrenLeisure.DAL\\Entities\\EntertainmentZone.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:35:04.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:35:04.807Z"
             },
             {
               "$type": "Document",
@@ -168,8 +163,7 @@
               "RelativeToolTip": "ChildrenLeisure.DAL\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:33:11.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:33:11.895Z"
             },
             {
               "$type": "Document",
@@ -181,8 +175,7 @@
               "RelativeToolTip": "ChildrenLeisure.BLL\\Services\\EntertainmentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:18:42.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:18:42.708Z"
             },
             {
               "$type": "Document",
@@ -194,8 +187,7 @@
               "RelativeToolTip": "ChildrenLeisure.BLL\\Services\\PricingService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:18:12.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:18:12.62Z"
             },
             {
               "$type": "Document",
@@ -207,8 +199,7 @@
               "RelativeToolTip": "ChildrenLeisure.BLL\\Services\\OrderService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:17:55.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:17:55.216Z"
             },
             {
               "$type": "Document",

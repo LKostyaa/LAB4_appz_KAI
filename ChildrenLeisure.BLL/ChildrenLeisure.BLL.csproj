@@ -8,4 +8,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ChildrenLeisure.DAL\ChildrenLeisure.DAL.csproj" />
+  </ItemGroup>
+
 </Project>
