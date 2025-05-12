@@ -25,22 +25,21 @@ namespace ChildrenLeisure.BLL.Services
         }
 
         // Отримання всіх зон розваг
-        public async Task<IQueryable<EntertainmentZone>> GetAllZonesAsync()
+        public IQueryable<EntertainmentZone> GetAllZones()
         {
-            return await _zoneRepository.GetAllAsync();
+            return _zoneRepository.GetAll();
         }
 
         // Отримання всіх атракціонів
-        public async Task<IQueryable<Attraction>> GetAllAttractionsAsync()
+        public IQueryable<Attraction> GetAllAttractions()
         {
-            return await _attractionRepository.GetAllAsync();
+            return _attractionRepository.GetAll();
         }
 
         // Отримання всіх казкових героїв
-        public async Task<IQueryable<FairyCharacter>> GetAllFairyCharactersAsync()
+        public IQueryable<FairyCharacter> GetAllFairyCharacters()
         {
-            return await _fairyCharacterRepository.GetAllAsync();
+            return _fairyCharacterRepository.GetAll();
         }
-
     }
 }

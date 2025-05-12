@@ -11,7 +11,7 @@ namespace ChildrenLeisure.DAL.Entities
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public decimal Price {  get; set; }
+        public decimal Price { get; set; }
         public int? EntertainmentZoneId { get; set; }
         public virtual EntertainmentZone EntertainmentZone { get; set; }
     }

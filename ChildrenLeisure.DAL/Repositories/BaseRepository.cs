@@ -20,39 +20,39 @@ namespace ChildrenLeisure.DAL.Repositories
             _dbSet = context.Set<T>();
         }
 
-        public virtual async Task<IQueryable<T>> GetAllAsync()
+        public IQueryable<T> GetAll()
         {
             return _dbSet;
         }
 
-        public virtual async Task<T> GetByIdAsync(int id)
+        public T GetById(int id)
         {
-            return await _dbSet.FindAsync(id);
+            return _dbSet.Find(id);
         }
 
-        public virtual async Task<T> AddAsync(T entity)
+        public T Add(T entity)
         {
-            var result = await _dbSet.AddAsync(entity);
-            await _context.SaveChangesAsync();
-            return result.Entity;
-        }
-
-        public virtual async Task<T> UpdateAsync(T entity)
-        {
-            _dbSet.Update(entity);
-            await _context.SaveChangesAsync();
+            _dbSet.Add(entity);
+            _context.SaveChanges();
             return entity;
         }
 
-        public virtual async Task<bool> DeleteAsync(int id)
+        public T Update(T entity)
         {
-            var entity = await GetByIdAsync(id);
+            _dbSet.Update(entity);
+            _context.SaveChanges();
+            return entity;
+        }
+
+        public bool Delete(int id)
+        {
+            var entity = GetById(id);
             if (entity == null)
             {
                 return false;
             }
             _dbSet.Remove(entity);
-            await _context.SaveChangesAsync();
+            _context.SaveChanges();
             return true;
         }
     }

@@ -11,10 +11,9 @@ namespace ChildrenLeisure.DAL.Entities
         public int Id { get; set; }
         public DateTime OrderDate { get; set; }
         public string CustomerName { get; set; }
-        public string PhoneNumber {  get; set; }
+        public string PhoneNumber { get; set; }
         public bool IsBirthdayParty { get; set; }
-        public int? FairyCharacterId {  get; set; }
-
+        public int? FairyCharacterId { get; set; }
         public virtual FairyCharacter FairyCharacter { get; set; }
         public virtual ICollection<Attraction> SelectedAttractions { get; set; }
         public virtual ICollection<EntertainmentZone> SelectedZones { get; set; }

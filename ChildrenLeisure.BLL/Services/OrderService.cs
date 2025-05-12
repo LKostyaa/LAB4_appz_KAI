@@ -27,7 +27,8 @@ namespace ChildrenLeisure.BLL.Services
             _fairyCharacterRepository = fairyCharacterRepository;
             _pricingService = pricingService;
         }
-        public async Task<Order> CreateOrderAsync(
+
+        public Order CreateOrder(
             string customerName,
             string phoneNumber,
             bool isBirthdayParty,
@@ -47,34 +48,33 @@ namespace ChildrenLeisure.BLL.Services
             // Додавання казкового героя
             if (fairyCharacterId.HasValue)
             {
-                order.FairyCharacter = await _fairyCharacterRepository.GetByIdAsync(fairyCharacterId.Value);
+                order.FairyCharacter = _fairyCharacterRepository.GetById(fairyCharacterId.Value);
             }
 
             // Додавання атракціонів
             if (attractionIds != null && attractionIds.Length > 0)
             {
-                order.SelectedAttractions = await _attractionRepository
-                    .GetAllAsync()
-                    .Result
+                order.SelectedAttractions = _attractionRepository
+                    .GetAll() 
                     .Where(a => attractionIds.Contains(a.Id))
-                    .ToListAsync();
+                    .ToList();
             }
 
             // Розрахунок ціни
             order.TotalPrice = _pricingService.CalculateOrderPrice(order);
 
-            return await _orderRepository.AddAsync(order);
+            return _orderRepository.Add(order);
         }
 
         // Підтвердження замовлення
-        public async Task<Order> ConfirmOrderAsync(int orderId)
+        public Order ConfirmOrder(int orderId)
         {
-            var order = await _orderRepository.GetByIdAsync(orderId);
+            var order = _orderRepository.GetById(orderId);
             if (order == null)
                 throw new ArgumentException("Замовлення не знайдено");
 
             order.Status = OrderStatus.Confirmed;
-            return await _orderRepository.UpdateAsync(order);
+            return _orderRepository.Update(order);
         }
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.DAL\bin\Debug\net8.0\ChildrenLeisure.DAL.deps.json
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.DAL\bin\Debug\net8.0\ChildrenLeisure.DAL.runtimeconfig.json
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.DAL\bin\Debug\net8.0\ChildrenLeisure.DAL.dll
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.DAL\bin\Debug\net8.0\ChildrenLeisure.DAL.pdb
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.DAL\obj\Debug\net8.0\ChildrenLeisure.DAL.csproj.AssemblyReference.cache
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.DAL\obj\Debug\net8.0\ChildrenLeisure.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.DAL\obj\Debug\net8.0\ChildrenLeisure.DAL.AssemblyInfoInputs.cache
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.DAL\obj\Debug\net8.0\ChildrenLeisure.DAL.AssemblyInfo.cs
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.DAL\obj\Debug\net8.0\ChildrenLeisure.DAL.csproj.CoreCompileInputs.cache
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.DAL\obj\Debug\net8.0\ChildrenLeisure.DAL.sourcelink.json
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.DAL\obj\Debug\net8.0\ChildrenLeisure.DAL.dll
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.DAL\obj\Debug\net8.0\refint\ChildrenLeisure.DAL.dll
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.DAL\obj\Debug\net8.0\ChildrenLeisure.DAL.pdb
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.DAL\obj\Debug\net8.0\ChildrenLeisure.DAL.genruntimeconfig.cache
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.DAL\obj\Debug\net8.0\ref\ChildrenLeisure.DAL.dll

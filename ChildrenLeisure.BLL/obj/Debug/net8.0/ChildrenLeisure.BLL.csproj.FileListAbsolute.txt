@@ -1,0 +1,16 @@
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.BLL\obj\Debug\net8.0\ChildrenLeisure.BLL.csproj.AssemblyReference.cache
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.BLL\obj\Debug\net8.0\ChildrenLeisure.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.BLL\obj\Debug\net8.0\ChildrenLeisure.BLL.AssemblyInfoInputs.cache
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.BLL\obj\Debug\net8.0\ChildrenLeisure.BLL.AssemblyInfo.cs
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.BLL\obj\Debug\net8.0\ChildrenLeisure.BLL.csproj.CoreCompileInputs.cache
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.BLL\obj\Debug\net8.0\ChildrenLeisure.BLL.sourcelink.json
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.BLL\bin\Debug\net8.0\ChildrenLeisure.BLL.deps.json
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.BLL\bin\Debug\net8.0\ChildrenLeisure.BLL.dll
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.BLL\bin\Debug\net8.0\ChildrenLeisure.BLL.pdb
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.BLL\bin\Debug\net8.0\ChildrenLeisure.DAL.dll
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.BLL\bin\Debug\net8.0\ChildrenLeisure.DAL.pdb
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.BLL\obj\Debug\net8.0\Children.484AE7A2.Up2Date
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.BLL\obj\Debug\net8.0\ChildrenLeisure.BLL.dll
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.BLL\obj\Debug\net8.0\refint\ChildrenLeisure.BLL.dll
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.BLL\obj\Debug\net8.0\ChildrenLeisure.BLL.pdb
+C:\Users\chema\Desktop\APPZ\Lab4_appz\ChildrenLeisure.BLL\obj\Debug\net8.0\ref\ChildrenLeisure.BLL.dll

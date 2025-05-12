@@ -8,10 +8,10 @@ namespace ChildrenLeisure.DAL.Entities
 {
     public class FairyCharacter
     {
-        public int Id {  get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
-        public string Costume {  get; set; }
+        public string Costume { get; set; }
         public decimal PricePerHour { get; set; }
-        public string Description {  get; set; }
+        public string Description { get; set; }
     }
 }
