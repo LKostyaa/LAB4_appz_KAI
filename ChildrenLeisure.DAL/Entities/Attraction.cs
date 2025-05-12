@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ChildrenLeisure.DAL.Entities
+{
+    public class Attraction
+    {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public decimal Price {  get; set; }
+        public int? EntertainmentZoneId { get; set; }
+        public virtual EntertainmentZone EntertainmentZone { get; set; }
+    }
+}
