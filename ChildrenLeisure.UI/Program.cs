@@ -1,10 +1,10 @@
-﻿namespace ChildrenLeisure.UI
+﻿
+namespace ChildrenLeisure.UI
 {
-    class Program
+    public class Program
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine("Yeytsi");
+        public static void Main(string[] args) {
+           
         }
     }
 }

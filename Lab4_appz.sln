@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChildrenLeisure.UI", "ChildrenLeisure.UI\ChildrenLeisure.UI.csproj", "{10FB1CD8-29A0-4009-9A05-5C8F806AEDA1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{175F5001-CA69-44A8-989B-017177F927CF} = {175F5001-CA69-44A8-989B-017177F927CF}
+		{263DB3C6-AFCF-4EEA-AA3E-24E581D00AD2} = {263DB3C6-AFCF-4EEA-AA3E-24E581D00AD2}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChildrenLeisure.DAL", "ChildrenLeisure.DAL\ChildrenLeisure.DAL.csproj", "{175F5001-CA69-44A8-989B-017177F927CF}"
 EndProject
