@@ -103,15 +103,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ChildrenLeisure.DAL",
+              "Title": "ChildrenLeisure.DAL.csproj",
               "DocumentMoniker": "C:\\Users\\chema\\Desktop\\APPZ\\Lab4_appz\\ChildrenLeisure.DAL\\ChildrenLeisure.DAL.csproj",
               "RelativeDocumentMoniker": "ChildrenLeisure.DAL\\ChildrenLeisure.DAL.csproj",
               "ToolTip": "C:\\Users\\chema\\Desktop\\APPZ\\Lab4_appz\\ChildrenLeisure.DAL\\ChildrenLeisure.DAL.csproj",
               "RelativeToolTip": "ChildrenLeisure.DAL\\ChildrenLeisure.DAL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-12T20:02:05.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T20:02:05.387Z"
             },
             {
               "$type": "Document",
@@ -122,8 +121,7 @@
               "ToolTip": "C:\\Users\\chema\\Desktop\\APPZ\\Lab4_appz\\ChildrenLeisure.BLL\\ChildrenLeisure.BLL.csproj",
               "RelativeToolTip": "ChildrenLeisure.BLL\\ChildrenLeisure.BLL.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-12T15:28:47.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T15:28:47.76Z"
             },
             {
               "$type": "Document",
@@ -135,8 +133,7 @@
               "RelativeToolTip": "ChildrenLeisure.BLL\\ChildrenLeisure.BLL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-12T15:28:29.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T15:28:29.108Z"
             },
             {
               "$type": "Document",
@@ -148,8 +145,7 @@
               "RelativeToolTip": "ChildrenLeisure.UI\\ChildrenLeisure.UI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-12T14:58:11.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T14:58:11.923Z"
             },
             {
               "$type": "Document",
@@ -159,7 +155,7 @@
               "RelativeDocumentMoniker": "ChildrenLeisure.UI\\Program.cs",
               "ToolTip": "C:\\Users\\chema\\Desktop\\APPZ\\Lab4_appz\\ChildrenLeisure.UI\\Program.cs",
               "RelativeToolTip": "ChildrenLeisure.UI\\Program.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAQwJgAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAQwIgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T14:28:04.293Z",
               "EditorCaption": ""
@@ -174,8 +170,7 @@
               "RelativeToolTip": "ChildrenLeisure.DAL\\Repositories\\BaseRepository.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:39:15.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:39:15.369Z"
             },
             {
               "$type": "Document",
@@ -187,8 +182,7 @@
               "RelativeToolTip": "ChildrenLeisure.DAL\\Repositories\\IRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:37:48.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:37:48.293Z"
             },
             {
               "$type": "Document",
@@ -200,8 +194,7 @@
               "RelativeToolTip": "ChildrenLeisure.DAL\\Entities\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:35:34.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:35:34.693Z"
             },
             {
               "$type": "Document",
@@ -213,8 +206,7 @@
               "RelativeToolTip": "ChildrenLeisure.DAL\\Entities\\FairyCharacter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:35:27.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:35:27.945Z"
             },
             {
               "$type": "Document",
@@ -226,8 +218,7 @@
               "RelativeToolTip": "ChildrenLeisure.DAL\\Entities\\Attraction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:35:12.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:35:12.767Z"
             },
             {
               "$type": "Document",
@@ -239,8 +230,7 @@
               "RelativeToolTip": "ChildrenLeisure.DAL\\Entities\\EntertainmentZone.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:35:04.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:35:04.807Z"
             },
             {
               "$type": "Document",
@@ -252,8 +242,7 @@
               "RelativeToolTip": "ChildrenLeisure.DAL\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAADwvy4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:33:11.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:33:11.895Z"
             },
             {
               "$type": "Document",
@@ -265,8 +254,7 @@
               "RelativeToolTip": "ChildrenLeisure.BLL\\Services\\EntertainmentService.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:18:42.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:18:42.708Z"
             },
             {
               "$type": "Document",
@@ -278,8 +266,7 @@
               "RelativeToolTip": "ChildrenLeisure.BLL\\Services\\PricingService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:18:12.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:18:12.62Z"
             },
             {
               "$type": "Document",
@@ -291,8 +278,7 @@
               "RelativeToolTip": "ChildrenLeisure.BLL\\Services\\OrderService.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAASwCQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:17:55.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T13:17:55.216Z"
             },
             {
               "$type": "Document",
