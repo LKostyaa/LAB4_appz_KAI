@@ -12,6 +12,9 @@ namespace ChildrenLeisure.UI
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.InputEncoding = System.Text.Encoding.UTF8;
+
             var options = new DbContextOptionsBuilder<AppDbContext>()
             .UseSqlite("Data Source=children_leisure.db")
             .Options;
@@ -20,28 +23,23 @@ namespace ChildrenLeisure.UI
             context.Database.EnsureCreated();
 
             // Репозиторії
-            var zoneRepo = new BaseRepository<EntertainmentZone>(context);
             var attractionRepo = new BaseRepository<Attraction>(context);
             var characterRepo = new BaseRepository<FairyCharacter>(context);
             var orderRepo = new BaseRepository<Order>(context);
 
             // Сервіси
             var pricingService = new PricingService();
-            var entertainmentService = new EntertainmentService(zoneRepo, attractionRepo, characterRepo);
+            var entertainmentService = new EntertainmentService(attractionRepo, characterRepo);
             var orderService = new OrderService(orderRepo, attractionRepo, characterRepo, pricingService);
-
-            // Початкові дані
-            SeedData(context);
 
             while (true)
             {
                 Console.Clear();
                 Console.WriteLine("=== ДИТЯЧЕ ДОЗВІЛЛЯ ===");
-                Console.WriteLine("1. Переглянути зони розваг");
-                Console.WriteLine("2. Переглянути атракціони");
-                Console.WriteLine("3. Переглянути казкових героїв");
-                Console.WriteLine("4. Створити замовлення");
-                Console.WriteLine("5. Підтвердити замовлення");
+                Console.WriteLine("1. Переглянути атракціони");
+                Console.WriteLine("2. Переглянути казкових героїв");
+                Console.WriteLine("3. Створити замовлення");
+                Console.WriteLine("4. Підтвердити замовлення");
                 Console.WriteLine("0. Вийти");
                 Console.Write("Вибір: ");
                 var choice = Console.ReadLine();
@@ -49,18 +47,15 @@ namespace ChildrenLeisure.UI
                 switch (choice)
                 {
                     case "1":
-                        ShowZones(entertainmentService);
-                        break;
-                    case "2":
                         ShowAttractions(entertainmentService);
                         break;
-                    case "3":
+                    case "2":
                         ShowCharacters(entertainmentService);
                         break;
-                    case "4":
+                    case "3":
                         CreateOrder(orderService, entertainmentService);
                         break;
-                    case "5":
+                    case "4":
                         ConfirmOrder(orderService);
                         break;
                     case "0":
@@ -74,14 +69,6 @@ namespace ChildrenLeisure.UI
                 Console.ReadKey();
             }
         }
-
-        static void ShowZones(EntertainmentService service)
-        {
-            Console.WriteLine("=== ЗОНИ РОЗВАГ ===");
-            foreach (var z in service.GetAllZones())
-                Console.WriteLine($"{z.Id}. {z.Name} - {z.Description} ({z.BasePrice} грн)");
-        }
-
         static void ShowAttractions(EntertainmentService service)
         {
             Console.WriteLine("=== АТРАКЦІОНИ ===");
@@ -104,8 +91,8 @@ namespace ChildrenLeisure.UI
             Console.Write("Телефон: ");
             string phone = Console.ReadLine();
 
-            Console.Write("Це день народження? (так/ні): ");
-            bool isBday = Console.ReadLine().Trim().ToLower() == "так";
+            Console.Write("Це день народження? (y/n): ");
+            bool isBday = Console.ReadLine().Trim().ToLower() == "y";
 
             ShowCharacters(entertainmentService);
             Console.Write("ID казкового героя (або пропустіть): ");
@@ -117,12 +104,7 @@ namespace ChildrenLeisure.UI
             var attrInput = Console.ReadLine();
             int[]? attrIds = attrInput?.Split(',').Select(s => int.TryParse(s.Trim(), out int val) ? val : -1).Where(id => id > 0).ToArray();
 
-            ShowZones(entertainmentService);
-            Console.Write("ID зон через кому (або пропустіть): ");
-            var zoneInput = Console.ReadLine();
-            int[]? zoneIds = zoneInput?.Split(',').Select(s => int.TryParse(s.Trim(), out int val) ? val : -1).Where(id => id > 0).ToArray();
-
-            var order = service.CreateOrder(name, phone, isBday, charId, attrIds, zoneIds);
+            var order = service.CreateOrder(name, phone, isBday, charId, attrIds);
 
             Console.WriteLine($"ЗАМОВЛЕННЯ СТВОРЕНО. ЦІНА: {order.TotalPrice} грн. Статус: {order.Status}");
         }
@@ -146,35 +128,6 @@ namespace ChildrenLeisure.UI
             {
                 Console.WriteLine("Невірне значення ID.");
             }
-        }
-
-        static void SeedData(AppDbContext context)
-        {
-            if (!context.EntertainmentZones.Any())
-            {
-                context.EntertainmentZones.AddRange(
-                    new EntertainmentZone { Name = "Зона пригод", Description = "Місце для активних ігор", BasePrice = 300 },
-                    new EntertainmentZone { Name = "Тиха зона", Description = "Малювання, книги", BasePrice = 200 }
-                );
-            }
-
-            if (!context.Attractions.Any())
-            {
-                context.Attractions.AddRange(
-                    new Attraction { Name = "Батути", Description = "Веселі стрибки", Price = 150 },
-                    new Attraction { Name = "Карусель", Description = "Класична дитяча розвага", Price = 100 }
-                );
-            }
-
-            if (!context.FairyCharacters.Any())
-            {
-                context.FairyCharacters.AddRange(
-                    new FairyCharacter { Name = "Пірат Джек", Costume = "Пірат", PricePerHour = 250, Description = "Піратські пригоди" },
-                    new FairyCharacter { Name = "Фея Лілі", Costume = "Фея", PricePerHour = 300, Description = "Магічне шоу" }
-                );
-            }
-
-            context.SaveChanges();
         }
     }
 }

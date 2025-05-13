@@ -10,26 +10,16 @@ namespace ChildrenLeisure.BLL.Services
 {
     public class EntertainmentService
     {
-        private readonly IRepository<EntertainmentZone> _zoneRepository;
         private readonly IRepository<Attraction> _attractionRepository;
         private readonly IRepository<FairyCharacter> _fairyCharacterRepository;
 
         public EntertainmentService(
-            IRepository<EntertainmentZone> zoneRepository,
             IRepository<Attraction> attractionRepository,
             IRepository<FairyCharacter> fairyCharacterRepository)
         {
-            _zoneRepository = zoneRepository;
             _attractionRepository = attractionRepository;
             _fairyCharacterRepository = fairyCharacterRepository;
         }
-
-        // Отримання всіх зон розваг
-        public IQueryable<EntertainmentZone> GetAllZones()
-        {
-            return _zoneRepository.GetAll();
-        }
-
         // Отримання всіх атракціонів
         public IQueryable<Attraction> GetAllAttractions()
         {

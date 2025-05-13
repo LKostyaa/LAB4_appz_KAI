@@ -16,7 +16,6 @@ namespace ChildrenLeisure.DAL.Entities
         public int? FairyCharacterId { get; set; }
         public virtual FairyCharacter FairyCharacter { get; set; }
         public virtual ICollection<Attraction> SelectedAttractions { get; set; }
-        public virtual ICollection<EntertainmentZone> SelectedZones { get; set; }
         public decimal TotalPrice { get; set; }
         public OrderStatus Status { get; set; }
     }

@@ -28,8 +28,7 @@ namespace ChildrenLeisure.BLL.Services
             // Додавання вартості казкового героя
             if (order.FairyCharacter != null)
             {
-                // Припустимо, що герой працює 2 години
-                totalPrice += order.FairyCharacter.PricePerHour * 2;
+                totalPrice += order.FairyCharacter.PricePerHour;
             }
 
             return totalPrice;

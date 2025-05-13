@@ -1,4 +1,7 @@
-﻿using System;
+﻿using ChildrenLeisure.DAL.Data;
+using ChildrenLeisure.DAL.Entities;
+using ChildrenLeisure.DAL.Repositories;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
