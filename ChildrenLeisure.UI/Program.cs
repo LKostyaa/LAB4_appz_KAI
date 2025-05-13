@@ -15,11 +15,7 @@ namespace ChildrenLeisure.UI
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.InputEncoding = System.Text.Encoding.UTF8;
 
-            var options = new DbContextOptionsBuilder<AppDbContext>()
-            .UseSqlite("Data Source=children_leisure.db")
-            .Options;
-
-            using var context = new AppDbContext(options);
+            using var context = new AppDbContext();
             context.Database.EnsureCreated();
 
             // Репозиторії
@@ -40,6 +36,8 @@ namespace ChildrenLeisure.UI
                 Console.WriteLine("2. Переглянути казкових героїв");
                 Console.WriteLine("3. Створити замовлення");
                 Console.WriteLine("4. Підтвердити замовлення");
+                Console.WriteLine("5. Переглянути замовлення(ліниве)");
+                Console.WriteLine("6. Переглянути замовлення(жадібне");
                 Console.WriteLine("0. Вийти");
                 Console.Write("Вибір: ");
                 var choice = Console.ReadLine();
@@ -58,6 +56,12 @@ namespace ChildrenLeisure.UI
                     case "4":
                         ConfirmOrder(orderService);
                         break;
+                    case "5":
+                        ShowOrderLazy(orderService);
+                        break;
+                    case "6":
+                        ShowOrderEager(orderService);
+                        break;
                     case "0":
                         return;
                     default:
@@ -67,6 +71,45 @@ namespace ChildrenLeisure.UI
 
                 Console.WriteLine("\nНатисніть будь-яку клавішу для продовження...");
                 Console.ReadKey();
+            }
+        }
+        static void ShowOrderLazy(OrderService service)
+        {
+            Console.Write("ID замовлення: ");
+            if (int.TryParse(Console.ReadLine(), out int id))
+            {
+                var order = service.GetOrderLazy(id);
+                if (order == null)
+                {
+                    Console.WriteLine("Замовлення не знайдено.");
+                    return;
+                }
+
+                Console.WriteLine($"Замовлення #{order.Id}, клієнт: {order.CustomerName}");
+                Console.WriteLine($"Герой: {order.FairyCharacter?.Name ?? "Немає"}");
+                Console.WriteLine("Атракціони:");
+                foreach (var a in order.SelectedAttractions)
+                    Console.WriteLine($"- {a.Name} ({a.Price} грн)");
+            }
+        }
+
+        static void ShowOrderEager(OrderService service)
+        {
+            Console.Write("ID замовлення: ");
+            if (int.TryParse(Console.ReadLine(), out int id))
+            {
+                var order = service.GetOrderEager(id);
+                if (order == null)
+                {
+                    Console.WriteLine("Замовлення не знайдено.");
+                    return;
+                }
+
+                Console.WriteLine($"Замовлення #{order.Id}, клієнт: {order.CustomerName}");
+                Console.WriteLine($"Герой: {order.FairyCharacter?.Name ?? "Немає"}");
+                Console.WriteLine("Атракціони:");
+                foreach (var a in order.SelectedAttractions)
+                    Console.WriteLine($"- {a.Name} ({a.Price} грн)");
             }
         }
         static void ShowAttractions(EntertainmentService service)

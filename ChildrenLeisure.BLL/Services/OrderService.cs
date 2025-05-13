@@ -65,7 +65,18 @@ namespace ChildrenLeisure.BLL.Services
 
             return _orderRepository.Add(order);
         }
-
+        public Order GetOrderLazy(int orderId)
+        {
+            return _orderRepository.GetById(orderId);
+        }
+        public Order GetOrderEager(int orderId)
+        {
+            return _orderRepository
+                .GetAll()
+                .Include(o => o.FairyCharacter)
+                .Include(o => o.SelectedAttractions)
+                .FirstOrDefault(o => o.Id == orderId);
+        }
         // Підтвердження замовлення
         public Order ConfirmOrder(int orderId)
         {

@@ -8,12 +8,17 @@ namespace ChildrenLeisure.DAL.Data
 {
     public class AppDbContext : DbContext
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+        public AppDbContext() : base() { }
 
         public DbSet<Attraction> Attractions { get; set; }
         public DbSet<FairyCharacter> FairyCharacters { get; set; }
         public DbSet<Order> Orders { get; set; }
-
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder
+                .UseLazyLoadingProxies()
+                .UseSqlite("Data Source=children_leisure.db");
+        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
